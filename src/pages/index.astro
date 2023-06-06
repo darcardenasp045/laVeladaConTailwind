@@ -7,9 +7,53 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>La velada</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<header></header>
+		<main>
+			<h1>La velada</h1>
+			<section
+				id="boxeadores"
+				class={`flex justify-between relative
+					[&>div>img]:absolute [&>div>img]:bottom-0
+					[&>div>img]:w-auto
+					[&>div>img]:animate-ease-in-out
+					[&>div>img]:animate-duration-[1000ms]
+					h-[40vh] lg:h-screen pt-24 border-b border-white/10
+					`}
+
+				
+			>
+			
+				<div class=" relative w-full">
+					<img class=" left-0 h-full z-50 animate-delay-300 animate-fade-rigth" src="/Boxes/Coscu.png" alt="">
+					<img class=" left-[5%] h-[85%] z-40 animate-delay-500 animate-fade-rigth " src="/Boxes/Mayichi.png" alt="">
+					<img class=" left-[13%] h-[76%] z-30 animate-delay-700 animate-fade-rigth" src="/Boxes/misho.png" alt="">
+					<img class=" left-[25%] h-[70%] z-20 animate-delay-1000 animate-fade-rigth" src="/Boxes/Fernanfloo.png" alt="">
+					<img class=" left-[34%] h-[65%] z-10 animate-delay-[1200ms] animate-fade-rigth" src="/Boxes/LaRivers.png" alt="">
+					<img class=" left-[39%] h-[60%] z-0 animate-delay-[1500ms] animate-fade-rigth" src="/Boxes/Papigavi.png" alt="">
+				</div>
+				<div class=" relative w-full">
+					<img class=" right-0 h-full z-50" src="/Boxes/German.png" alt="">
+					<img class=" right-[5%] h-[85%] z-40" src="/Boxes/Amouranth.png" alt="">
+					<img class=" right-[13%] h-[76%] z-30" src="/Boxes/Shelao.png" alt="">
+					<img class=" right-[25%] h-[70%] z-20" src="/Boxes/Luzu.png" alt="">
+					<img class=" right-[34%] h-[65%] z-10" src="/Boxes/Rivers.png" alt="">
+					<img class=" right-[39%] h-[60%] z-0" src="/Boxes/Ampeter.png" alt="">
+				</div>
+				
+
+			</section>
+		</main>
+		<footer></footer>
+		
 	</body>
 </html>
+
+<style>
+	body{
+		background-color: black;
+	}
+
+</style>
