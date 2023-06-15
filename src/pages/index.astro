@@ -2,84 +2,238 @@
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>La velada</title>
-	</head>
-	<body>
-		<header>
-			<div class= "absolute left-1/2 -translate-x-1/2 flex flex-col gap-1 justify-center top-16 mix-blend-hard-light ">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>La velada</title>
+  </head>
+  <body>
+    <header>
+      <div
+        class="absolute top-2 left-1/2 md:top-6 -translate-x-1/2 flex flex-col gap-1 justify-center items-center lg:top-12 mix-blend-hard-light"
 				
-				<img class=" w-32 lg:w-60 animate-fade-down animate-duration-[1000ms] animate-delay-[1500ms] animate-ease-linear " src="/Boxes/Logov3.png" alt="logo principal">
-				<h1 class=" bg-gradient-to-b from-gray-200 via-gray-300 to-gray-600 font-boxing-striped  bg-clip-text text-transparent font-semibold uppercase text-center  text-2xl animate-fade-down animate-duration-[1000ms] animate-delay-[1500ms] animate-ease-linear">La velada del año </h1>
-			</div>
-		</header>
-		<main>
-			<h1>La velada</h1>
-			<section
-				id="boxeadores"
-				class={`flex justify-between relative
+      >
+        <img
+          class="w-24 left-1/2 md:w-32 lg:w-52 animate-fade-down animate-duration-[1000ms] animate-delay-[1500ms] animate-ease-linear "
+          src="/Boxes/Logov3.png"
+          alt="logo principal"
+        />
+        <h1
+          class="bg-gradient-to-b from-gray-200 via-gray-300 to-gray-600 font-boxing-striped bg-clip-text text-transparent font-semibold uppercase text-center text-2xl animate-fade-down animate-duration-[1000ms] animate-delay-[1500ms] animate-ease-linear"
+        >
+          La velada del año
+        </h1>
+      </div>
+    </header>
+    <main>
+      <h1>La velada</h1>
+      <section
+        id="boxers"
+        class={`flex justify-between relative
 					[&>div>img]:absolute [&>div>img]:bottom-0
 					[&>div>img]:w-auto
 					[&>div>img]:animate-duration-[1000ms]
 					[&>div>img]:animate-once
-					h-[40vh] lg:h-screen pt-24 border-b border-white/10
+					h-screen lg:h-screen pt-24 border-b border-white/10
 					`}
+      >
+        <div class="relative w-full">
+          <img
+            class="left-0 h-full z-50 animate-fade-right animate-delay-300"
+            src="/Boxes/Coscu.png"
+            alt="Coscu"
+          />
+          <img
+            class="left-[8%] h-[85%] z-40 animate-fade-right animate-delay-500"
+            src="/Boxes/Mayichi.png"
+            alt="Mayichi"
+          />
+          <img
+            class="left-[19%] h-[76%] z-30 animate-fade-right animate-delay-700"
+            src="/Boxes/misho.png"
+            alt="Misho"
+          />
+          <img
+            class="left-[29%] h-[70%] z-20 animate-fade-right animate-delay-1000"
+            src="/Boxes/Fernanfloo.png"
+            alt="Fernanfloo"
+          />
+          <img
+            class="left-[39%] h-[65%] z-10 animate-fade-right animate-delay-[1200ms]"
+            src="/Boxes/LaRivers.png"
+            alt="LaRivers"
+          />
+          <img
+            class="left-[43%] h-[60%] z-0 animate-fade-right animate-delay-[1500ms]"
+            src="/Boxes/Papigavi.png"
+            alt="Papigavi"
+          />
+        </div>
+        <div class="relative w-full">
+          <img
+            class="right-0 h-full z-50 animate-fade-left animate-delay-300"
+            src="/Boxes/German.png"
+            alt="German"
+          />
+          <img
+            class="right-[8%] h-[85%] z-40 animate-fade-left animate-delay-500"
+            src="/Boxes/Amouranth.png"
+            alt="Amouranth"
+          />
+          <img
+            class="right-[19%] h-[76%] z-30 animate-fade-left animate-delay-700"
+            src="/Boxes/Shelao.png"
+            alt="Shelao"
+          />
+          <img
+            class="right-[29%] h-[70%] z-20 animate-fade-left animate-delay-1000"
+            src="/Boxes/Luzu.png"
+            alt="Luzu"
+          />
+          <img
+            class="right-[39%] h-[65%] z-10 animate-fade-left animate-delay-[1200ms]"
+            src="/Boxes/Rivers.png"
+            alt="Rivers"
+          />
+          <img
+            class="right-[43%] h-[60%] z-0 animate-fade-left animate-delay-[1500ms]"
+            src="/Boxes/Ampeter.png"
+            alt="Ampeter"
+          />
+        </div>
+      </section>
 
-				
-			>
-			
-				<div class=" relative w-full">
-					<img class=" left-0 h-full z-50 animate-fade-right animate-delay-300" src="/Boxes/Coscu.png" alt="">
-					<img class=" left-[5%] h-[85%] z-40 animate-fade-right animate-delay-500 " src="/Boxes/Mayichi.png" alt="">
-					<img class=" left-[13%] h-[76%] z-30 animate-fade-right animate-delay-700" src="/Boxes/misho.png" alt="">
-					<img class=" left-[25%] h-[70%] z-20 animate-fade-right animate-delay-1000" src="/Boxes/Fernanfloo.png" alt="">
-					<img class=" left-[34%] h-[65%] z-10 animate-fade-right animate-delay-[1200ms]" src="/Boxes/LaRivers.png" alt="">
-					<img class=" left-[39%] h-[60%] z-0 animate-fade-right animate-delay-[1500ms]" src="/Boxes/Papigavi.png" alt="">
-				</div>
-				<div class=" relative w-full">
-					<img class=" right-0 h-full z-50 animate-fade-left animate-delay-300" src="/Boxes/German.png" alt="">
-					<img class=" right-[5%] h-[85%] z-40 animate-fade-left animate-delay-500" src="/Boxes/Amouranth.png" alt="">
-					<img class=" right-[13%] h-[76%] z-30 animate-fade-left animate-delay-700" src="/Boxes/Shelao.png" alt="">
-					<img class=" right-[25%] h-[70%] z-20 animate-fade-left animate-delay-1000" src="/Boxes/Luzu.png" alt="">
-					<img class=" right-[34%] h-[65%] z-10 animate-fade-left animate-delay-[1200ms]" src="/Boxes/Rivers.png" alt="">
-					<img class=" right-[39%] h-[60%] z-0 animate-fade-left animate-delay-[1500ms]" src="/Boxes/Ampeter.png" alt="">
-				</div>
+      <div id="presentacion"
+        class="absolute w-30 h-10 bottom-10 text-sm left-1/2 lg:w-64 text-slate-950 lg:absolute -translate-x-1/2 flex flex-col gap-1 justify-center lg:bottom-24 text-center lg:text-3xl font-boxing "
+      >
+        <div>
+          <h2 class="bg-gradient-to-r from-rose-100 to-teal-100 font-black p-2">1 de julio</h2>
+        </div>
+        <a id="twitch" class="bg-slate-500 p-1 font-black underline hover:scale-x-105	" href="">TWITCH.TV/IBAI</a>
+        <a
+          class="bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 p-1 hover:scale-x-105"
+          href="">COMPRA TUS BOLETAS</a
+        >
 
-			
-				
-
-			</section>
-
-			<div class="absolute left-1/2 -translate-x-1/2 flex flex-col gap-1 justify-center bottom-5">
-				<div>
-					<h2 class=" text-white ">1 de julio</h2>
-				</div>
-				<a href=""></a>
-				<a href=""></a>
-			</div>
-		</main>
-		<footer></footer>
-		
-	</body>
+      </div>
+	  <div id = "info" class="absolute w-30 h-10 bottom-10 text-sm left-1/2 lg:w-64 text-white lg:absolute opacity-0 -translate-x-1/2 flex flex-col gap-1 justify-center lg:bottom-24 text-center lg:text-3xl font-boxing">
+		<p id="firstBoxName">
+			Peleador 1
+		</p>
+		<h3 id="vs">
+			VS
+		</h3>
+		<p id="secondBoxName">
+			Peleador 2
+		</p>
+	  </div>
+	</main>
+    <footer></footer>
+  </body>
 </html>
+<script>
+
+    const boxers = document.querySelector("#boxers");
+    const boxersImages = boxers.querySelectorAll("img");
+	const presentacion = document.getElementById("presentacion")
+	const info = document.getElementById("info")
+	const twitch = document.getElementById("twitch")
+
+    // const info = document.querySelector("#info");
+    // const combat = document.querySelector("#combat");
+
+
+    boxersImages.forEach((img) => {
+      img.addEventListener("mouseleave", () => {
+        boxersImages.forEach((img) => {
+          img.style.filter = "none";
+          img.style.transition = "all .3s ease-in-out";
+          img.style.scale = "1";
+        });
+
+       	presentacion.style.opacity = "1"; 
+        presentacion.style.transition = "all .3s ease-in-out";
+		presentacion.style.scale = "1";
+
+		info.style.opacity = "0"; 
+        info.style.transition = "all .3s ease-in-out";
+		info.style.scale = "0";
+
+
+
+        // combat.style.opacity = "0";
+        // combat.style.transition = "all .3s ease-in-out";
+      });
+
+	//   twitch.addEventListener("mouseenter", () =>{
+	// 	twitch.style.scale = "1.1"
+	//   })
+	//   twitch.addEventListener("mouseleave", () =>{
+	// 	twitch.style.scale = "1"
+	//   })
+
+      img.addEventListener("mouseenter", () => {
+        const sectionImages = img.parentNode.children;
+        const position = Array.from(sectionImages).indexOf(img);
+
+        // get image for the left side and the right side
+        const [leftBoxer, rightBoxer] = [
+          boxersImages[position], // de la izquierda
+          boxersImages[position + boxersImages.length / 2], // de la derecha
+        ];
+
+        // ocultamos la informacion
+        presentacion.style.opacity = "0";
+        presentacion.style.transition = "all .3s ease-in-out";
+		presentacion.style.scale ="0"
+
+		info.style.opacity = "1"; 
+        info.style.transition = "all .3s ease-in-out";
+		info.style.scale = "1";
+
+        // combat.style.opacity = "1";
+        // combat.style.visibility = "visible";
+        // combat.style.transition = "all .3s ease-in-out";
+
+        const [firstBoxerName, secondBoxerName] =
+          info.querySelectorAll("p");
+        firstBoxerName.innerText = leftBoxer.alt;
+        secondBoxerName.innerText = rightBoxer.alt;
+
+        // ocultar los boxeadores que no interesan
+        boxersImages.forEach((img) => {
+          img.style.filter = "blur(2px) grayscale(.8)";
+          img.style.transition = "all .3s ease-in-out";
+        });
+		
+		leftBoxer.style.scale = "1.2";
+        leftBoxer.style.filter = "contrast(1.1)";
+        leftBoxer.style.transition = "all .3s ease-in-out";
+
+        rightBoxer.style.scale = "1.2";
+        rightBoxer.style.filter = "contrast(1.1)";
+        rightBoxer.style.transition = "all .3s ease-in-out";
+      });
+    });
+
+
+</script>
 
 <style>
-	body{
-		background-color: black;
-	}
-	@font-face {
-		font-family: 'boxing';
-		src: url('/fonts/BOXING.ttf');
-		font-weight: bold;
-	}
-	@font-face {
-		font-family: 'boxing-striped';
-		src: url('/fonts/BOXING- striped.ttf');
-		font-weight: bold;
-	}
-
+  body {
+    background-color: black;
+	
+  }
+  @font-face {
+    font-family: "boxing";
+    src: url("/fonts/boxing.ttf");
+    font-weight:900;
+  }
+  @font-face {
+    font-family: "boxing-striped";
+    src: url("/fonts/boxing-striped.ttf");
+    font-weight: bold;
+  }
 </style>
